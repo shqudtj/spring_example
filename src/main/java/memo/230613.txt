@@ -1,0 +1,8 @@
+request
+
+
+
+response
+ - HTML
+ - JSON
+ - jsp -> HTML(응답)

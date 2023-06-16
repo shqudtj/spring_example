@@ -1,0 +1,44 @@
+에러를 해결하는 법
+
+BO 쪽에
+
+- @Service를 임포트 하지 않으면
+에러 발생 서버 안켜짐
+콘솔쪽에 BO쪽에 Springbean이 없다고? 뜸
+
+- @Autowired를 임포트 하지 않으면
+서버는 켜지나 500에러 발생
+콘솔에 에러 뜸
+에러에 is null이 뜨면
+@Autowired나 @Service가 빠진 것을 체크하는게 우선 순위
+
+
+DB 쪽
+
+.xml 의 namespace 쪽에 주소가 공백이 들어간경우
+500에러
+콘솔쪽 에러에
+파란줄에
+Mybatis framework
+= ibatis framework (과거에는 ibatis)
+가 적혀있으면 DB쪽에러임
+binding에러면 .xml 의
+namespace나 id 를 체크하기
+
+<select></select>
+안의 쿼리문이 잘못된 경우
+500에러
+웹페이지에 ###가 떠있는 경우는
+쿼리문 즉 xml쪽을 우선순위 확인
+You have an error in your SQL syntax
+라는 콘솔에 에러메시지가 있으면
+sql쪽 쿼리문이 잘못되었다는 문장
+
+
+NOClaassDefFoundError: org/springframework/aot/....
+에러 뜨면
+빌드 그래들의
+마이바티스 버전을 바꿔야함
+3.0.2 를 2.3.1로바꾸고
+리프레시해야함
+

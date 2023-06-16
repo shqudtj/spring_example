@@ -1,0 +1,37 @@
+src/main/java  => java
+src/main/resource => java, jsp(view) 이외
+WEB-INF/jsp/lesson01/ex02.jsp  => jsp
+
+Request
+
+
+
+Response
+HttpMessageConverter
+ -@ Controller + @ResponseBody return String => HTML
+ -@ Controller + @ResponseBody return 객체 => json string
+
+ViewResolver
+ -@ Controller return String => JSP -> HTML
+
+
+Mybatis framework
+JPA
+
+
+데이터를 담는 클래스(filed, getter/setter)
+ - Entity: 데이터베이스 테이블 칼럼들과 완전 일치
+ - domain: 테이블 보단 넓은 도메인 개념
+ - DTO(Data Transfer Object): 테이블 + 가공 필드
+ - model: 테이블 보단 넓은 도메인 개념
+ - VO(Value Object): read-only
+
+
+BO(Bussiness Object) = Service
+bo -> UsedGoodsBO
+
+Mapper = DAO(Data Access Object) = Repository
+dao -> UsedGoodsMapper
+
+
+usedGoodsMapper.xml

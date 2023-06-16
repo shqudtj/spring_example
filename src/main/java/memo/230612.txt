@@ -1,0 +1,9 @@
+src/main/java -> java 코드
+src/main/resource -> java, view 이외의 모든 것
+src/main/webapp -> jsp view 화면
+
+
+Spring framework
+Spring boot
+
+설정 방식이 다름

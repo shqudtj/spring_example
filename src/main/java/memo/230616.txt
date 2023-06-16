@@ -1,0 +1,16 @@
+TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 21
+라는 에러가 뜨면
+나는 단건의 테이블을 가져오기로 했는데 (RestController 부분에 선언)
+select 문구에 where절을 안 넣은 경우
+
+
+
+1915
+
+
+
+
+2050
+
+t 1 1 1 1
+ 
