@@ -4,13 +4,13 @@ import java.util.Date;
 
 public class Review {
 	private int id;
-	private String storeName;
+	private int storeId;
 	private String menu;
 	private String userName;
 	private double point;
 	private String review;
 	private Date createdAt;
-	private Date updatedAt;
+	
 	
 	public int getId() {
 		return id;
@@ -18,11 +18,11 @@ public class Review {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getStoreName() {
-		return storeName;
+	public int getStoreId() {
+		return storeId;
 	}
-	public void setStoreName(String storeName) {
-		this.storeName = storeName;
+	public void setStoreId(int storeId) {
+		this.storeId = storeId;
 	}
 	public String getMenu() {
 		return menu;
@@ -60,5 +60,7 @@ public class Review {
 	public void setUpdatedAt(Date updatedAt) {
 		this.updatedAt = updatedAt;
 	}
+	private Date updatedAt;
+	
 	
 }
