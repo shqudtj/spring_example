@@ -36,5 +36,10 @@ public class ReviewBO {
 	public int updateReviewById(int id, String review) {
 		return reviewMapper.updateReviewById(id, review);
 	}
+	
+	// int row 등으로 호출 할 것이 아니므로 void 사용 => void는 return 사용안함
+	public void deleteReviewById(int id) {
+		reviewMapper.deleteReviewById(id);
+	}
 }
 

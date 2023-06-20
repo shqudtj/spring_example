@@ -25,4 +25,8 @@ public interface ReviewMapper {
 	public int updateReviewById(
 			@Param("id") int id,
 			@Param("review") String review);
+	
+	public void deleteReviewById(int id);
+	// 호출할 것이 아니므로 void
+	
 }
