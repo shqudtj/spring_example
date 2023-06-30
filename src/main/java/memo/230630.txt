@@ -1,0 +1,11 @@
+
+GET:select
+
+POST:create
+PUT:update
+PATCH:update
+DELETE:delete
+HEAD
+
+
+postman 프로그램

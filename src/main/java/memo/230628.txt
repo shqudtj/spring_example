@@ -1,0 +1,16 @@
+GET: request body가 비어있따. query String 
+- 브라우저 주소
+- a 태그
+- javascript location.href = "주소"
+- form 태그 method = "get"
+- AJAX(Asynchronous Javascript and XMl) 통신 
+
+
+POST : request body에 값이 넘어간다.
+- form 태그 method = "post"
+- AJAX 통신
+
+동기 비동기 차이점
+동기 (Sync) 수행시킨 코드가 다 진행될 때까지 기다리고 다음 코드 수행
+비동기 (Async) 수행시킨 코드의 결과를 확인하지 않고 다음 코드 수행
+ -ex) 네이버나 홈페이지 화면에서 (1/16)같은 쇼핑이나 뉴스탭에 다음버튼을 누를때 호출하는 것
