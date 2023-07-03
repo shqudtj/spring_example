@@ -1,0 +1,31 @@
+Request
+1) 요청 방식
+GET
+- 브라우저 주소
+- a 태그
+- location.href
+- form method="get"
+- AJAX type="get"
+
+POST(PUT, DELETE, PATCH, HEAD, ...)
+- form method="post"
+- AJAX type="post"
+
+Response
+1) Response
+- text/html
+- application/json
+- text/plain
+- file(excel, zip, ...)
+- image
+
+2) 서버 입장
+@ResponseBody가 있으면  Model을 사용할 수 없다
+- @ResponseBody return String => 글자 html or plain
+- @ResponseBody return 객체 => JSON   
+
+@Controller return String => jsp를 찾는다.  => html
+
+
+
+
