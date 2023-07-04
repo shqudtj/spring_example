@@ -1,0 +1,59 @@
+f(x) 함수
+{} 의 범위는 scope라고 부름
+compile에러는 내가 고쳐야 하는 오류
+예약어는 보라색문자들 ->인텔리제이에서 주황색 퍼블릭등
+char -> '문자' 사용
+= 는 오른쪽을 왼쪽의 문자에 저장한다는 의미
+ex) a = b -> b를 a라고 저장한다는 의미
+// 주석
+/* */ 여러줄 주석
+공백으로 코드들 분리하여 가독성 높이기 
+변수 재사용시에 자료형 생략
+ex) int number = 5;
+     int number = 10; -> X number = 10; -> O
+float
+is_real : snake case -> python이 주로 사용
+isReal : camel case -> 자바의 경우 이 케이스를 사용하는 관례가 있음
+
+
+단축기 팁
+ctrl + d -> 해당 열 문자들 삭제
+syso + ctrl + space bar => itellij 에서의 sout 
+변수 명이 길 경우 변수어느정도 까지 입력후 ctrl + spacebar
+
+
+
+Day01 > src > variable_ 예제는 ex / 문제는 quiz 
+> Ex00 (대문자로 시작이 약속)
+코드는 src안에 있음
+줄바꿈은 역슬래시n
+아니면
+println
+System.out.print();
+"" -> 문장 -> 문자열 -> String
+
+정렬맞추기 <탭> 이 중요
+
+IDE 프로그램
+- eclipse
+- intellij
+
+
+c:\Program Files\Java
+
+http://marondal.com
+
+수강신청
+web_java1_230320
+
+환경변수설정
+
+이클립스 d드라이브 복사
+
+반디집으로 압축풀기
+
+이클립스 폴더
+이클립스 실행
+저장위치 
+d드라이브 내이름 워크스페이스에 저장
+웰컴탭 필요없음

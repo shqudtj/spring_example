@@ -1,0 +1,17 @@
+모래시계 힌트
+_가 띄움표시라고 생각
+
+pulbic -> 누구나 사용 가능하다
+
+static -> 
+
+
+
+// boolean 변수: 참(true) 또는 거짓(false)
+		boolean isReal = true;
+		boolean isFalse = false;
+		System.out.println(isReal);
+		System.out.println("거짓이다. " + isFalse);
+
+
+오늘 녹화본 상담선생님한테 요청시 받을 수 있음

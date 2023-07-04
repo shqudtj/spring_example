@@ -1,0 +1,84 @@
+Scanner scan = new Scanner(System.in);
+//		1. 합 구하기
+//		수를 입력 받아서 1에서 부터 그 수 까지의 합을 구하는 함수를 만드세요.
+//		단, 합이 100이 넘으면 합을 중단하고 그 때 까지의 합을 리턴하세요.
+		
+		System.out.print("수를 입력하세요 : ");
+		int number = scan.nextInt();
+//		
+////		int sum = 0;
+////		for (int i = 0; i <= number; i++) {
+////			sum = sum + i;
+////		}
+		System.out.print(getSum(number));
+		
+//		2. 최소값
+//		5개의 수를 입력 받아서 최소값을 출력하는 함수를 만드세요.(리턴값 없음)
+		
+//		System.out.print("5개의 수를 입력하세요 : ");
+//		int n1 = scan.nextInt();
+//		int n2 = scan.nextInt();
+//		int n3 = scan.nextInt();
+//		int n4 = scan.nextInt();
+//		int n5 = scan.nextInt();
+//		
+//		getMin(n1, n2, n3, n4, n5);
+		
+		
+		
+		
+		
+//		3. 소수(prime) 판별
+//		수를 입력 받고 그 수가 소수(prime)인지 아닌지 리턴하는 함수를 만들고 호출하세요.
+//		소수이면 true, 소수가 아니면 false를 리턴
+//		단, 입력하는 수는 2 이상
+		
+//		System.out.print("수를 입력하세요 : ");
+//		int number = scan.nextInt();
+//		
+////		number % number == 0 && number / i == 1;
+//		
+//		System.out.println(isPrimeNumber(number));
+		
+		
+		scan.close();
+	}
+
+	public static int getSum(int number) {
+		int sum = 0;
+		for (int i = 0; i <= number; i++) {
+			sum += i;
+			if (sum >= 100); {
+			} continue;
+			
+		}
+		return sum;
+	}
+	
+	public static void getMin(int n1, int n2, int n3, int n4, int n5) {
+		int min = n1;
+		if (n2 < min) {
+			min = n2;
+		}
+		if (n3 < min) {
+			min = n3;
+		}
+		if (n4 < min) {
+			min = n4;
+		}
+		if (n5 < min) {
+			min = n5;
+		}
+		System.out.println("최소값은 " + min);
+	}
+	
+	
+	
+//	public static boolean isPrimeNumber(int number) {
+//		for (int i = 1; i <= number; i++) {
+//			if (number % number == 0 && number / i != number) {
+//				return true;
+//			} return false;
+//		}
+////		return true;
+//	}

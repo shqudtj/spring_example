@@ -1,0 +1,32 @@
+Get
+- 브라우저에서 주소
+- a 태그
+- form 태그
+
+src/main/webapp/lesson01/ex03.html
+
+http://localhost/lesson01/ex03.html
+
+
+			     키      밸류
+http://localhost/lesson01/ex03?user_id=sssss
+위 행위를 
+query string
+query parameter
+request parameter
+라고 함
+
+http://localhost/lesson01/ex03?user_id=sssss&name=노병서
+
+
+이거를 json이라고 함 (자바스크립트의 키 밸류를 본 딴 String임)
+"
+{
+      "name":"노병서"
+}
+"
+
+
+
+
+

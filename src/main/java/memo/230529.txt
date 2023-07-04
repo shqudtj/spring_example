@@ -1,0 +1,15 @@
+GET -> 조회할때 자주 사용 parameter에 보이므로
+ - 브라우저
+ - a
+ - fomr method = "get"
+
+
+POST -> create, insert
+ - form method = "post"
+주소창에 결과값이 나오지 않으므로 비밀번호등 보안이 필요한 방식에 사용
+
+
+common
+com.test.filter.CharacterEncodingFilter
+
+자료구조

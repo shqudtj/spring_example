@@ -1,0 +1,36 @@
+성공
+
+200 OK: 성공
+201 created
+
+에러
+
+400: bad request 서버로 못 도달
+404: page not found
+405: 잘못된 method
+
+500: 서버 에러 ==> eclipse console log 볼 것
+
+
+com.test.lesson01
+
+
+서블릿 매핑에서 유효하지 않습니다 @@@@@  -> url-pattern 확인
+
+Tap이 생기면 에러
+Tap 젤 위쪽에 보통 이유 적혀잇음
+Exception쪽에 이유 적혀잇음
+
+http://localhost:8080/Test/lesson01/ex01
+
+Http Method 방식 중
+GET vs POST   차이를 알아두기
+get 브라우져에서 클릭이나 엔터를 쳐서 들어가는 것은 get
+앵커태그를 클릭하는 것 또한  get
+
+post는 코드를 통해서 접근 가능
+post를 get방식으로 들어가면
+405 에러가 뜸
+get 보다 보안이 더 강함
+
+

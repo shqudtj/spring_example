@@ -1,0 +1,18 @@
+김혜수 기준 뒤로 쭉
+송강호 기준 쭉 뒤로
+
+만약 있다? 다른 단어로 바뀌게 하고 
+바뀐 단어는 무시하게 넘어가게 하면 됨
+
+
+
+ScoreInfo[] si = new ScoreInfo[5];
+// 자료형
+
+class ScoreInfo {
+	String name;
+	int score;
+	int rank;
+}
+
+

@@ -1,0 +1,10 @@
+CRUD
+Create
+Read
+Update
+Delete
+
+
+굿즈 클래스            상품명, 가격 등	 상품자체
+마켓 클래즈	  상품들		crud를 다 담당하도록?
+판매자 메인클래스		

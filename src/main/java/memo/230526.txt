@@ -1,0 +1,6 @@
+Get
+- 브라우저
+- a
+- form method="get"
+body에 내용이 없다 -> 주소에 내용이 있음
+query string으로 보낸다.

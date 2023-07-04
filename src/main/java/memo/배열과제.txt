@@ -1,0 +1,82 @@
+//		3. 임금 계산
+//		아래 배열은 각각 월, 화, 수, 목, 금, 토, 일 7일간의 아르바이트를 한 시간을 나타낸다.
+//		시급 기준이 아래와 같을때 7일 동안 일한 총 임금의 값을 출력하세요.
+//		평일 시급 : 8500원
+//		주말(토,일) 시급 : 9500원
+
+//		int[] works = {3, 5, 5, 3, 5, 3, 5};
+//		
+//		int week = 0;
+//		int weekend = 0;
+//		int weekSum = 0;
+//		int weekendSum = 0;
+//		for (int i = 0; i < works.length; i++) {
+//			for (i = 0; i < 5; i++) {
+//				week = works[i] * 8500;
+//				weekSum += week;
+//			} 
+//			for (i = 5; i < works.length; i++) {
+//				weekend = works[i] * 9500;
+//				weekendSum += weekend;
+//			}
+//		}
+//		System.out.println("일주일간 총 임금은 " + (weekSum + weekendSum));
+
+//		4. 배열 값 변경
+//		길이가 5인 int 배열을 만든다.
+//		수를 계속 입력 받으면서, 입력 받은 수가 짝수 일때만, 배열에 저장한다.
+//		배열이 가득차면 입력을 중단하고, 저장된 수들을 출력한다.
+		Scanner scan = new Scanner(System.in);
+
+//		for (int i = 0;)
+
+		int[] evens = new int[5];
+
+		for (int i = 0; i < evens.length; i++) {
+			System.out.print("수를 입력하세요 : ");
+			int number = scan.nextInt();
+			if (number % 2 == 0) {
+				evens[i] = number;
+			}
+			if (evens[i] == 5)
+				break;
+
+		}
+		System.out.print(evens[0] + " " + evens[1] + " " + evens[2] + " " + evens[3] + " " + evens[4]);
+
+//		int n1 = scan.nextInt();
+//		int n2 = scan.nextInt();
+//		int n3 = scan.nextInt();
+//		int n4 = scan.nextInt();
+//		int n5 = scan.nextInt();
+
+
+
+
+2222@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+Scanner scan = new Scanner(System.in);
+		
+//		1. 위치 변경 (swap)
+		int[] numbers = {3, 5, 2, 10, 39};
+		
+		System.out.print("두 개의 index를 입력하세요 : ");
+		int i1 = scan.nextInt();
+		int i2 = scan.nextInt();
+		
+		
+		for (int i = 0; i < numbers.length; i++) {
+		System.out.print(numbers[i] + " ");
+		}
+		
+//		2. 배열 순서 변경
+		int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+		
+		Random rand = new Random();
+
+		// 0번째 index와 random index와 교체를 100번 반복해서 뒤섞는다.     
+		for (int i = 0; i < 100; i++) {
+		    int randIndex = rand.nextInt(10); // 0 ~ 9까지의 숫자를 랜덤으로 뽑는다.
+		    // swap 구현
+		}

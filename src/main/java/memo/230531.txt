@@ -1,0 +1,12 @@
+GET
+- a
+- form method = "get"
+ 위 둘은 혼합해서 쓰면 안됨
+- 브라우저
+
+
+
+POST
+
+
+<a href="" class="btn btn-success">

@@ -1,0 +1,7 @@
+CRUD
+C : create insert 삽입
+R : read select 조회
+U : update      수정
+D : delete       삭제
+
+

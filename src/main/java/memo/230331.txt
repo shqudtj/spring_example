@@ -1,0 +1,27 @@
+기본자료형(Primitive) : int, long, float, double, char, boolean, ...  (소문자시작)
+=> stack에 값 저장
+
+참조자료형(Reference type) : String, int[], char[], String[] 배열등 대문자 및 배열 등
+=> h
+
+개념 사진에 찍어놓음
+
+
+
+
+
+문자열 문장 String
+"문장"
+
+int, double, char
+
+
+
+과제 : 
+2차원 배열 5, 6
+
+변수로 풀었으면 i j만 이용해서 풀기
+i j 이용해서 풀었으면 반대로
+
+
+문자열 함수 1 ~ 3

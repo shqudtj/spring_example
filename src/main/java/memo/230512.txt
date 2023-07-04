@@ -1,0 +1,79 @@
+RDB
+유저와 학생이 같은 거라는 거를 저장? 하는 것
+
+example databases 에서
+샤키라 알집 풀기
+
+
+밑  노땡스
+
+기본 아이디
+user : root
+password : 자주 사용안하는 것 root 로 동일하게 하는 게 좋음 학원이랑 계속 로그인해야되서
+
+
+다운되어야하는것들
+server
+workbench
+sample and example
+
+나머지는 없어도 노상관
+
+만약 다운이 저것들이 안되었으면 제어판및 폴더 다 삭제후 다시 해야됨
+
+
+
+주소
+https://~~~~.~~~
+s 는 security의 약자
+
+이게 보통의 첫 서버 주소
+http://localhost
+보통 web은 :80
+
+DB는 :3306
+
+다른 주소를 열려면 숫자를 변경해줘야함
+
+
+
+
+command line
+- 명령어를 사용하는 것
+
+mysql workbench
+- 주로 이걸 사용
+
+
+db에서 사용하는 언어는
+query라고 함
+
+
+sql query문을 이제부터 사용
+
+database > 테이블들
+
+
+
+schemas탭
+
+sakila 더블클릭
+ctrl T
+
+
+
+char 고정적
+
+varchar 가변적 
+
+
+
+
+
+
+
+
+
+
+
+

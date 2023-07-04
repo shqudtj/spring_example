@@ -1,0 +1,18 @@
+ORM(Object Relation Mapping)
+Mybatis, 하이버네이트(JPA)
+스프링 7강 강의자료에 차이점 나와있음
+
+하이버네이트(JPA) 환경설정
+- Lombok 라이브러리(JPA랑 독립적 아예 관련없음)- //entity dto//
+=> @Data @Getter @Setter를 붙이면 dto를 편하게 해주는 라이브러리임
+-JPA 설정 추가
+=> 
+spring.jpa.show-sql=true => log를 볼거냐
+spring.jpa.hibernate.ddl-auto=none => 마론달 강의자료에 설명되어잇음
+spring.jpa.properties.hibernate.format_sql=true
+
+Spring boot 2점대
+javax.~~~
+
+Spring boot 3점대
+jakarta.~~~

@@ -1,0 +1,74 @@
+Scanner scan = new Scanner(System.in);
+
+//		두 수를 입력 받아서 몫과 나머지를 출력하세요.
+//		입력1 : 843
+//		입력2 : 8
+//		몫 : 105 나머지 : 3
+
+//		System.out.print("입력1 : " );
+//		int a = scan.nextInt();
+//		System.out.print("입력2 : ");
+//		int b = scan.nextInt();
+//		int share = a / b;
+//		int remain = a % b;
+//		System.out.println("몫 : " + share + "  나머지 : " + remain);
+
+//		수 두개를 x, y 에 입력 받아서 바꿔서 출력하세요.
+//		x : 6
+//		y : 4
+//		x는 4이고, y는 6 입니다.
+
+
+//		System.out.print("x : ");
+//		int x = scan.nextInt();
+//		System.out.print("y : ");
+//		int y = scan.nextInt();
+////		int x = 4;
+////		int y = 6;
+//		System.out.println("x는 " + x + "이고, y는 " + y + " 입니다.");
+
+//		초를 입력 받아서 ?분?초 형태로 출력 하세요.
+//		초 : 464
+//		7분 44초
+//
+
+//		System.out.print("초 : ");
+//		int second = scan.nextInt();
+//		int min = second / 60;
+//		int second2 = second % 60;
+//		System.out.println(min + "분 " + second2 + "초");
+
+
+//		네 자리수 숫자를 입력 받아서 천의 자리부터 한줄씩 출력 하세요.
+//		입력 : 1234
+//		1
+//		2
+//		3
+//		4
+//
+//        System.out.print("입력 : ");
+//        int number = scan.nextInt();
+//        int result = number / 1000;
+//        System.out.println(result);
+//        result =   number % 1000/100;
+//        System.out.println(result);
+//        result = number % 100 / 10;
+//        System.out.println(result);
+//        result = number % 10;
+//        System.out.println(result);
+
+
+//		네 자리수를 입력 받아서 각 자리수의 합을 출력하세요.
+//		입력 : 1234
+//		합계는 10 입니다.
+
+		System.out.print("입력 : ");
+		int number = scan.nextInt();
+//		System.out.println(Math.round(number / 1000.0));
+//		System.out.println(Math.round(number / 1000.0)%100);
+        int result = number / 1000;
+        int result2 = number % 1000 / 100;
+        int result3 = number % 100 / 10;
+        int result4 = number % 10;
+        int lastResult = result + result2 + result3 + result4;
+        System.out.println(lastResult);

@@ -1,0 +1,49 @@
+servlet  ->  spring framework
+servlet
+웹의 흐름만 익힘
+
+
+WAS
+=> Web Application Server
+
+Eclipse IDE for Enterprise Java and Web Developers
+>> Select Another Mirror
+Korea, Republic Of - KAIST
+
+tomcat
+download -> tomcat9
+
+Core: zip
+
+폴더를 모으고 있는 폴더에 생성후 압축해제
+workspace 폴더 생성
+이클립스에 workspace폴더 지정
+웰컴이랑 아웃라인 꺼도됨
+
+이클립스에서
+window preference -> server검색 -> runtime en~
+-> add -> apche -> 톰캣버전맞추기 9.0 -> browse...
+-> 톰캣위치 잡아주기
+
+인코딩/톰캣 연동 후 프로젝트 생성@@@@@@
+
+
+인코딩설정
+
+
+다이나믹 웹 프로젝트
+target -> 톰캣 되어있는지 확인
+Test 이름 지정 -> next 2번 -> generate@@@ 체크
+Test -> src -> main -> webapp -> web-inf -> web.xml 있는지 확인
+
+
+naver.com -> com > naver
+
+http://localhost:8080
+
+404 error 찾을수 없다는 뜻 주소같은것을 체크
+
+코드 수정은 항상 서브 종료 후 수정하기
+
+
+개인프로젝트시 에러뜬거를 기록하기
