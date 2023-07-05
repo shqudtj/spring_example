@@ -17,7 +17,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-@Entity	// 이 클래스는 Entity라고 알리는 어노테이션
+@Entity(name = "new_student")	// 이 클래스는 Entity라고 알리는 어노테이션
 @Table(name = "new_student")	// 테이블명에 _없으면 생략해도됨 즉 _가 있으면 꼭 추가
 @Getter		// getter
 @Builder(toBuilder = true)	// setter 대용 tobuilder = true => 데이터내용지정해서 변경가능

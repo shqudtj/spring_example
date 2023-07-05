@@ -1,6 +1,7 @@
 package com.example.lesson04.bo;
 
 import java.time.ZonedDateTime;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -60,6 +61,21 @@ public class StudentBO {
 		}
 		
 		return student;
+	}
+	
+	public void deleteStudentById(int id) {
+		// 방법1)
+//		StudentEntity student = studentRepository.findById(id).orElse(null);
+//		// 해당하는 id가 없을 수 있으므로 검증단계인 if문 실행
+//		if (student != null) {
+//			studentRepository.delete(student);
+//		}
+		
+		// 방법2)
+		Optional<StudentEntity> studentOptional = studentRepository.findById(id);
+		studentOptional.ifPresent(s -> studentRepository.delete(s));
+		// 방법1)의 if문이랑 똑같은 구문임 람다식이고 자바 최신버전만 가능 아마 14부터?
+		
 	}
 	
 }
